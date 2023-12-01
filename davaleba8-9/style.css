@@ -1,0 +1,88 @@
+*/{
+display: flex;
+box-sizing: border-box;
+gap: 0;
+}
+
+/* .buttons{
+    display: flex;
+    margin-left: 300px;
+    align-items: center;
+    background-color: #fff;
+ border: none;
+   
+}
+.products{
+
+    display: flex;
+    align-items: center;
+}
+.product-container{
+    display: flex;
+    align-items: center;
+} */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #banner {
+    background-color: #f98500;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #filter-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .product-card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    margin-left: 300px;
+  }
+  
+  .buttons button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  /* If you want the last button to have a border */
+  .buttons button:last-child {
+    border: 1px solid #ff7700;
+  }
+  
+
+  
+
+
